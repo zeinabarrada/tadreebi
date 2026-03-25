@@ -1,0 +1,13 @@
+.card-header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.card-title {
+  color: #6b7280;
+}
+
+.card-icon {
+  color: rgb(55, 55, 121);
+}

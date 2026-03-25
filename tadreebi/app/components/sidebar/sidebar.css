@@ -1,0 +1,5 @@
+.sidebar-menu .ant-menu {
+  height: 100vh;
+  border-right: none;
+  padding-top: 16px;
+}
