@@ -24,7 +24,7 @@ export default function Quizzes({ index, handleDelete }: Props) {
   return (
     <Card>
       <Flex justify="space-between">
-        <h3>Question {index}</h3> // check here it is starting from index 0
+        {<h3>Question {index}</h3> /* check here it is starting from index 0 */}
         {index ? (
           <Button onClick={() => handleDelete(index)}>
             <IconTrash size={18} />
